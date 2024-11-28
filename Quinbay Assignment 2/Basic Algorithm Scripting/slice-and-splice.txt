@@ -1,0 +1,11 @@
+function frankenSplice(arr1, arr2, n) {
+ let result = arr2.slice();
+  
+  // Use splice to insert all elements of arr1 at index n in the copied array
+  result.splice(n, 0, ...arr1);
+  
+  return result;
+  
+}
+
+frankenSplice([1, 2, 3], [4, 5, 6], 1);

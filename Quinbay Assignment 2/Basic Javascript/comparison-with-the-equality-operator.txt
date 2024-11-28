@@ -1,0 +1,10 @@
+// Setup
+function testEqual(val) {
+  if (val==12) { // Change this line
+    return "Equal";
+  }
+  if(val==10)
+  return "Not Equal";
+}
+
+testEqual(10);

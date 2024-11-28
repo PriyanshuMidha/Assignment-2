@@ -1,0 +1,8 @@
+function checkPositive(arr) {
+  // Use the every method to check if all elements are positive
+  return arr.every(function(currentValue) {
+    return currentValue > 0;
+  });
+}
+
+checkPositive([1, 2, 3, -4, 5]);

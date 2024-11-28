@@ -1,0 +1,5 @@
+// Only change code below this line
+
+// Only change code below this line
+const myName = "Priyanshu"; // 1. Set myName to a string at least 3 characters long
+const myStr = "My name is " + myName + " and I am well!."; // 2. Use two + operators to build myStr

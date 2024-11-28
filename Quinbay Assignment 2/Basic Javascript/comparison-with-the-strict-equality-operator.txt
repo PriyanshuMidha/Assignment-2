@@ -1,0 +1,12 @@
+// Setup
+function testStrict(val) {
+  if (val===7) { // Change this line
+    return "Equal";
+  }
+  if(val===10)
+  return "Not Equal";
+  if(val==="7")
+  return "Not Equal";
+}
+
+testStrict(10);

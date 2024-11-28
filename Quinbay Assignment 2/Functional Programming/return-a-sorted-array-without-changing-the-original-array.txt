@@ -1,0 +1,9 @@
+const globalArray = [5, 6, 3, 2, 9];
+
+function nonMutatingSort(arr) {
+  // Create a new array to avoid mutating the original array
+  return arr.slice().sort((a, b) => a - b);
+}
+
+
+nonMutatingSort(globalArray);

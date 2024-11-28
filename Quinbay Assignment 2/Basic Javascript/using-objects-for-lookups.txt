@@ -1,0 +1,17 @@
+// Setup
+const a={
+  "alpha":"Adams",
+  "bravo":"Boston",
+  "charlie":"Chicago",
+  "delta":"Denver",
+  "echo":"Easy",
+  "foxtrot":"Frank",
+}
+function phoneticLookup(val) {
+  let result = a[val];
+
+  
+  return result;
+}
+
+phoneticLookup("charlie");

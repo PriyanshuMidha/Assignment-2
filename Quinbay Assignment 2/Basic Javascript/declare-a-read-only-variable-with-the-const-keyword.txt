@@ -1,0 +1,3 @@
+const FCC = "freeCodeCamp";
+let fact = "is awesome!";
+console.log(FCC, fact);

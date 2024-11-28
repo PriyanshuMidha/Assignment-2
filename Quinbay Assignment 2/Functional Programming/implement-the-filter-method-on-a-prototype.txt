@@ -1,0 +1,15 @@
+Array.prototype.myFilter = function(callback) {
+  const newArray = [];
+  // Only change code below this line
+
+  for (let i = 0; i < this.length; i++) {
+    // Call the callback with the current element, index, and the array
+    if (callback(this[i], i, this)) {
+      // If the callback returns true, push the element to the new array
+      newArray.push(this[i]);
+    }
+  }
+
+  // Only change code above this line
+  return newArray;
+};

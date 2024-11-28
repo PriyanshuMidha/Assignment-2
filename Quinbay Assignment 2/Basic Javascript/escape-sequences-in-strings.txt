@@ -1,0 +1,2 @@
+// Define myStr with the specified format
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";

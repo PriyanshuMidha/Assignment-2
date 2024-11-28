@@ -1,0 +1,7 @@
+const myDog = {
+  name:"priyanshu",
+  legs:2,
+  tails:3,
+  friends:[3,2]
+
+};

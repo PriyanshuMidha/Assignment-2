@@ -1,0 +1,7 @@
+const myList = [
+  ["priya",3],
+  ["anja",4],
+  ["qwer",5],
+  ["ff",45],
+  ["ffw",25]
+];

@@ -1,0 +1,7 @@
+function removeFirstTwo(list) {
+  const [, , ...arr] = list; // Use destructuring to skip the first two elements
+  return arr;
+}
+
+const list = [1, 2, 3, 4, 5];
+console.log(removeFirstTwo(list)); // [3, 4, 5]

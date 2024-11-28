@@ -1,0 +1,13 @@
+// Setup
+const myArray = [];
+// let a=myArray.length;
+let a=5;
+let i=0;
+while(a>=0)
+{
+myArray[i++]=a--;
+
+ 
+}
+
+// Only change code below this line

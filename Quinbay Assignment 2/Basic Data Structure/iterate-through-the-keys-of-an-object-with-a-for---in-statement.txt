@@ -1,0 +1,26 @@
+const users = {
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
+}
+
+function countOnline(allUsers) {
+  let count = 0;
+
+  // Iterate through the keys in the object
+  for (const user in allUsers) {
+    // Check if the online property is true
+    if (allUsers[user].online === true) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(countOnline(users));

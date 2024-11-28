@@ -1,0 +1,11 @@
+Array.prototype.myMap = function(callback) {
+  const newArray = [];
+  
+  // Iterate over the array using a for loop
+  for (let i = 0; i < this.length; i++) {
+    // Apply the callback function and push the result to newArray
+    newArray.push(callback(this[i], i, this));
+  }
+
+  return newArray;
+};

@@ -1,0 +1,16 @@
+function titleCase(word) {
+  let words = word.toLowerCase().split(' '); // Split the string into words
+  let result = [];
+
+  // Iterate through each word
+  for (let i = 0; i < words.length; i++) {
+    // Capitalize the first letter and add the rest in lowercase
+    let capitalizedWord = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+    result.push(capitalizedWord); // Add the transformed word to the result array
+  }
+
+  // Join the transformed words back into a single string
+    return result.join(' ');
+}
+
+titleCase("I'm a little tea pot");
